@@ -12,10 +12,10 @@
     'prefix': 'cat'
     'body': 'cat(${1:file}, ${2:sep = ${3:""}}, ${4:fill = ${5:FALSE}}, ${6:labels = ${7:NULL}}, ${8:append = ${9:FALSE}})'
   'Cummulative max':
-    'prefix': 'cumi'
-    'body': 'cummax(${1:x})'
-  'Cummulative max':
     'prefix': 'cuma'
+    'body': 'cummax(${1:x})'
+  'Cummulative min':
+    'prefix': 'cumi'
     'body': 'cummin(${1:x})'
   'Data Frame':
     'prefix': 'daf'
@@ -44,9 +44,6 @@
   'Generalized Linear Models':
     'prefix': 'glm'
     'body': 'glm(${1:formula}, ${2:family = {3:gaussian}}, ${4:data})'
-  'Grep':
-    'prefix': 'grep'
-    'body': 'grep(${1:pattern}, ${2:x}, ${3:ignore.case = ${4:FALSE}}, ${5:perl = ${6:FALSE}})'
   'Grep':
     'prefix': 'grep'
     'body': 'grep(${1:pattern}, ${2:x}, ${3:ignore.case = ${4:FALSE}}, ${5:perl = ${6:FALSE}}, ${7:value = ${8:FALSE}}, ${9:fixed = ${10:TRUE}})'
